@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Cat Photo App</title>
+        <style>
+            .img {width: 100%; height: 100%; object-fit: contain; display: block;}
+        </style>
+    </head>
+
+    <body style="margin: 0; width: 100%; border: 1px solid black; padding: 10px;">
+        <h1>CatPhotoApp</h1>
+
+        <section>
+            <h2>Cat Photos</h2>
+            <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
+            <p>See more <a href="https://freecatphotoapp.com/">cat photos</a> in our gallery</p>
+
+            <img src="C:\Users\HP\Pictures\relaxing-cat.jpg">
+
+
+        </section>
+
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+                <li>catnip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+
+            <div style="padding-left: 35px;">
+                <img src="C:\Users\HP\Pictures\photo_2025-06-12_14-06-40.jpg" alt="Cats love lasagna" style="font-style: italic;">
+                <p style="margin-top: 4px;">Cats <em>love</em> lasagna</p>
+            </div>        
+
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+
+            <div style="padding-left: 35px;">
+                <img src="C:\Users\HP\Pictures\photo_2025-06-12_14-06-48.jpg" alt="Cats hate other cats">
+                <p style="margin-top: 4px;">Cats <strong>hate</strong> other cats</p>
+            </div>    
+        </section>
+
+        <form>
+            <h2>Cat Form</h2>
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <input type="radio" id="indoor" name="door" value="indoor"><label for="indoor">Indoor</label>
+                    <input type="radio" id="outdoor" name="door" value="outdoor"><label for="outdoor">Outdoor</label><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>What's your cat's loving personality?</legend>
+                <input type="checkbox" id="loving" name="personality" value="loving"><label for="loving">Loving</label>
+                <input type="checkbox" id="lazy" name="personality" value="lazy"><label for="lazy">Lazy</label>
+                <input type="checkbox" id="energetic" name="personality" value="energetic"><label for="energetic">Energetic</label><br><br>
+            </fieldset>
+
+            <div style="display: grid; grid-template-columns: 2.3fr 1fr 15fr; grid-template-rows: 20.5px;">
+            <textarea style="height: 20.5px; resize: none;" placeholder="cat photo URL"></textarea> <input type="submit" value="Submit">
+            </div>
+        </form>
+
+        <footer>
+            <div>No Copyright - <a href="freeCodeCamp.org">freeCodeCamp.org</a> </div>
+        </footer>
+    </body>
+</html>
